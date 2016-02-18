@@ -11,3 +11,17 @@ Fill in -N [name], -e [stderr file] -o [stdout file]
 #PBS -l nodes=1:ppn=8
 #PBS -l walltime=0:10:00
 ```
+
+#submit a job to TSCC
+```
+qsub [file]
+```
+
+#check job status
+```
+qstat -u ucsd-train18
+```
+alias was set up on the profile
+```
+qme
+```
